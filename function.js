@@ -4,7 +4,7 @@ https://rickandmortyapi.com/api/character/1 */
 
 
 async function search () {
-    const response = await fetch('https://rickandmortyapi.com/api/character/1')
+    const response = await fetch('https://rickandmortyapi.com/api/character/11')
     const data = await response.json()
     console.log(data)
     document.getElementById('name').innerHTML = data?.name;
