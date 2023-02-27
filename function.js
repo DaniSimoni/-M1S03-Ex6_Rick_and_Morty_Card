@@ -2,19 +2,6 @@
 Onde você vê o número um, pode mudar para qualquer número até 800 que vai buscar um personagem diferente.
 https://rickandmortyapi.com/api/character/1 */
 
-/* 
-const num = 0;
-const formCard = document.querySelector('#formCard');
-console.log(formCard);
-
-formCard.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const num = document.querySelector('#numCard').value;
-    console.log(num)
-}); */
-
-
-
 async function search () {
   
     const formCard = document.querySelector('#formCard');
